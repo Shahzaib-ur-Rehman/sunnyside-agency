@@ -1,0 +1,10 @@
+.galary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 50rem) {
+  .galary {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

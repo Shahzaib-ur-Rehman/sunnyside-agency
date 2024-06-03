@@ -1,0 +1,41 @@
+.testemonials{
+    padding:2rem 1rem;
+    text-align: center;
+}
+@media (min-width:50rem) {
+    .testemonials{
+        padding: 6rem 6rem;
+        text-align: center;
+    }
+}
+
+.testemonialsTitle{
+    font-size: var(--fs-500);
+    text-transform: uppercase;
+    color: var(--clr-neutral-400);
+    letter-spacing: 3px;
+}
+
+.conetntWrapper{
+    padding: 3rem 0;
+}
+
+@media (min-width:50rem) {
+    .conetntWrapper{
+        padding: 5rem;
+    }
+    
+}
+.card{
+    display: grid;
+    gap: 3rem;
+    justify-items: center;
+}
+
+.cardImage{
+    border-radius: 50%;
+}
+
+.authorWrapper p{
+    color: var(--clr-neutral-400);
+}
